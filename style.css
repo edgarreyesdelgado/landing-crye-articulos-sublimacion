@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .navegacion {
+        background: white;
+        text-align: center; 
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: .75rem;
+        outline: none;
+        padding-bottom: 0.9375rem;
+        padding-top: 0.9375rem;
+    }
+
+    .navegacion img {
+        
+        margin-inline: 5%;
+        
+    }
+    
+    .barra { 
+        margin-left: 20%;
+        color: rgb(7, 1, 78);
+        }
+        
+        
+        .boton{
+            color: black;
+            text-decoration: none;
+            border: 0px solid black;
+            padding: 3px 10px;
+            border-radius: 0px;  
+            
+        }
+        
+        .boton:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(58, 56, 185);
+            }
+        
+        .boton {
+            color: rgb(255, 255, 255);
+            background-color: rgb(7, 1, 78);
+            background-size: cover;    
+            }
+
+                    .iniciocarrito a {
+                    text-decoration: none;
+                    color: rgb(7, 1, 78);
+                    font-size: 130%;
+                    font-family: fantasy;
+                    vertical-align: middle;
+                }
+                
+                .iniciocarrito img {
+                    margin-left: 3%;
+                    margin-inline: 1%;
+                    
+                }
+
+                .plans {
+    
+                    background-color: rgba(0, 0, 0, 0.808);
+                    height: 110px;
+                    margin-top: 0%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    
+                }
+                
+                .clase {
+                    margin-top: 1%;
+                    text-align: center;
+                    width: 100px;
+                }
+                
+                .texto a {
+                    margin-top: 0%;
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                }
+                
+                .texto a:hover{
+                    color: rgba(19, 181, 187, 0.808);
+                }
+
+                .carousel-inner {
+                    
+                    margin-top: 2%;
+                    
+                    
+                }.jumbotron {
+                    margin-top: 10%;
+                    
+                    
+                    }
+                
+                    main.card {
+                        display: flex;
+                        
+                    }
+                    
+                    .cotiza { 
+                        text-align: center;
+                        color: rgb(7, 1, 78);
+                        margin-top: -0%;
+                        }
+                        
+                        .cotiza input {
+                            outline: none;
+                            box-sizing: border-box;
+                            height: 35px;
+                            width: 120px;
+                            color: rgb(7, 1, 78);
+                            border-radius: 0px;
+                            font-size: 15px;
+                            border: 1px solid rgb(245, 201, 7);
+                            transition: all .8s ease;
+                            text-align: center;
+                        }
+                        
+                        .botoncotiza{
+                            color: black;
+                            text-decoration: none;
+                            border: 0px solid black;
+                            padding: 7px 15px;
+                            border-radius: 0px;  
+                            
+                        }
+                        
+                        .botoncotiza:hover{
+                            color: rgb(0, 0, 0);
+                            background-color: rgb(250, 115, 4);
+                            }
+                        
+                        .botoncotiza {
+                            color: rgb(0, 0, 0);
+                            background-color: rgb(245, 201, 7);
+                            background-size: cover;    
+                            }
+                    
+                            .container-fluidsus h2 {
+                                margin-left: 10%;
+                                margin-right: 10%;
+                                margin-bottom: 4%;
+                                
+                            }
+                    
+                            .footer-top section {
+                                text-align: center;
+                                }
+                            
+                                .footer-top nav{
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 10px;
+                                    margin-right: 5%;
+                                    margin-left: 5%;
+                                    
+                                }          
+
+                            .crearye a{
+                                    font-size: 120%;
+                                    
+                                }
+
+                                .crearye label{
+                                    margin-top: 20%;
+                                    font-size: 150%;
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                }
+                            
+                                .titulo:hover{
+                                    color: rgb(236, 221, 8);
+                                    text-decoration: none;
+                                                
+                                }
+                
+                                .titulo {
+                                    
+                                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                    display: inline;
+                                    margin-top: 10%;
+                                    margin-bottom: 2%;
+                                    font-size: 15px;
+                                    text-decoration: none;
+                                    color: black;
+                                    
+                                    
+                                }
+
+                                .footer-top a{
+                                    list-style: none;
+                                }
+                                
+                                .footer-bottom{
+                                    background-color: rgb(7, 1, 78);
+                                }
+                
+                                .footer-bottom li {                                     
+                                    display: inline;
+                                    
+                                    
+                                }
+                
+                                .footer-bottom li a{
+                                    list-style: none;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Times New Roman', Times, serif;
+                                    font-size: 15px;
+                                    vertical-align: middle;
+                                    margin-left: 8%;
+                                    
+                                    
+                                }
+                
+                                .footer-end{
+                                    background-color: rgb(0, 0, 0);
+                                    padding: 5px 5px 5px 5px;
+                                }
+                        
+                                .footer-end li label{
+                                    text-align: center;
+                                    list-style: none;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Times New Roman', Times, serif;
+                                    font-size: 15px;
+                                    
+                                }
+                
+                                .footer-end li {                                     
+                                    display: inline;
+                                
+                                }
+                        
+                            
+                            
+                            
